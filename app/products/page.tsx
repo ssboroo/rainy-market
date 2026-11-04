@@ -1,0 +1,1 @@
+import{Grid}from"@/components/store";export default function Products(){return <section className="section"><small>THE FULL COLLECTION</small><h1>Бүх бүтээгдэхүүн</h1><Grid/></section>}

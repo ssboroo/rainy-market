@@ -1,0 +1,1 @@
+"use client";import{useMarket}from"@/components/provider";export function Buy({id}:{id:string}){const{add}=useMarket();return <button className="cta" onClick={()=>add(id)}>Сагсанд нэмэх +</button>}
